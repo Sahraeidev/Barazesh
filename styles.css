@@ -53,6 +53,11 @@ a {
     border-radius: 20px;
 }
 
+.navbutton a:active {
+    background-color: aliceblue;
+    color: green;
+    border-radius: 20px;
+}
 
 h1 {
     text-align: center;
@@ -166,6 +171,14 @@ main {
 }
 
 .book-item:hover {
+    transform: translateY(0.5em);
+    background-color: rgb(29, 180, 29);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+
+.book-item:active {
     transform: translateY(0.5em);
     background-color: rgb(29, 180, 29);
     border: 2px solid rgb(255, 255, 255);
