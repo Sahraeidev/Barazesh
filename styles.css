@@ -1,191 +1,131 @@
-body {
-    font-family: Tahoma;
-    text-align: center;
-    background-color: aliceblue;
-    color: aliceblue;
-    margin: 10% 0 0 0;
-}
-
-nav {
-    margin: auto;
-    width: 90%;
-    top: 5%;
-    right: 0;
-    left: 0;
-    position: fixed;
-    background-color: green;
-    text-align: center;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 10px;
+.profile-section {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+    min-height: fit-content;
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-
-
+    background-image: url(https://png.pngtree.com/background/20230524/original/pngtree-the-kaaba-of-mecca-with-thousands-of-people-around-it-picture-image_2707448.jpg);
 }
 
-@media (max-width : 50rem) {
-    nav {
-        flex-direction: column;
-    }
-
-    .navbutton {
-        margin: 0rem;
-        padding: 0rem;
-    }
-}
-
-.navbutton {
-    padding: 1.5rem;
-
-}
-
-a {
-    margin: auto;
-    padding: 1rem;
-    text-decoration: none;
-    color: aliceblue;
-    transition: 1s;
-}
-
-.navbutton a:hover {
-    background-color: aliceblue;
-    color: green;
-    border-radius: 20px;
-}
-
-.navbutton a:active {
-    background-color: aliceblue;
-    color: green;
-    border-radius: 20px;
+.profile-section p {
+    color: #D5ED9F;
+    width: 20rem;
 }
 
 h1 {
-    text-align: center;
-    color: aliceblue;
-    font-weight: 500;
+    color: #D5ED9F;
+    position: fixed;
 }
 
-h3 {
-    text-align: center;
-    color: aliceblue;
+body {
+    color: #F1F8E8;
+    margin: 0;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
     font-weight: 100;
+    font-style: normal;
 }
 
-footer {
-    margin: 2% 0;
-    padding: 0.5% 0;
-    background-color: aliceblue;
-    color: green;
+.Books-section {
+    color: #D5ED9F;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: fit-content;
+    background-image: url(https://images.unsplash.com/photo-1641816514743-d264c1481585?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    justify-content: center;
+
+}
+
+.Book-Container {
     text-align: center;
+    width: 75%;
+    margin: auto;
+    height: 50vh;
+    background-color: #00712D;
+    padding: 2rem;
+    min-height: fit-content;
+
 }
 
-
-table {
-    background-color: green;
-    width: 100%;
-    text-align: center;
-    color: aliceblue;
-    border-radius: 10px;
-    border: 2px white solid;
+.Book-shelf {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-form {
-    margin: 0 15%;
-    padding: 1% 0;
-    text-align: center;
-    background-color: aliceblue;
-    color: green;
-    border-radius: 10px;
-}
-
-#logo {
+.Book-Item {
+    min-height: fit-content;
+    height: 15rem;
     width: 10rem;
-    height: 10rem;
-    border: 5px solid aliceblue;
+    border: #D5ED9F 2px solid;
+    transition: 0.5s;
+
+}
+
+.Book-Item img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.Book-Item:hover {
+    background-color: #D5ED9F;
+    color: #00712D;
+    transform: translateY(-0.5rem);
+}
+
+a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border: #D5ED9F 2px solid;
+    text-decoration: none;
+    color: #D5ED9F;
     transition: 0.5s;
 }
 
-#logo:hover {
-    border-radius: 100%;
+a:hover {
+    background-color: #D5ED9F;
+    color: #00712D;
+    transform: translateY(-0.5rem);
 }
 
-td {
-    border: 2px solid aliceblue;
-    border-radius: 10px;
-    transition: 1s;
+#PFP {
+    border: #00712D 2px solid;
+    height: 15rem;
+    width: 15rem;
 }
 
-td:hover {
-    transform: translateY(0.5em);
-    background-color: rgb(29, 180, 29);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-}
-
-hr {
-    width: 30%;
-    border-style: dotted none none none;
-    border-color: aliceblue;
-    border-width: 5px;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
-    background-color: rgb(27, 146, 27);
-    padding: 2%;
-
-}
-
-.mainbox {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 80%;
-}
-
-.sidebar {
-    height: 100px;
-    width: 100px;
-    display: flex;
-    background-color: chartreuse;
-    border-radius: 2px;
-    max-width: 10%;
-}
-
-#books-list {
+.Contact-me {
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    color: #D5ED9F;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: fit-content;
+    background-image: url(https://en.shafaqna.com/wp-content/uploads/2021/12/60d6e62872ae0.jpg);
+    align-content: center;
+
 }
 
-.book-item {
-    width: 8rem;
-    height: 20rem;
+button {
+    color: #D5ED9F;
+    background-color: #ffffff00;
+    border: #D5ED9F solid 2px;
+    padding: 1rem;
     transition: 1s;
-
 }
 
-.book-item:hover {
-    transform: translateY(0.5em);
-    background-color: rgb(29, 180, 29);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-}
-
-
-.book-item:active {
-    transform: translateY(0.5em);
-    background-color: rgb(29, 180, 29);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-}
-
-.book-photo {
-    width: 80%;
+button:hover {
+    color: #00712D;
+    background-color: #D5ED9F;
+    border: #00712D 2px solid;
+    transform: translateY(-0.5rem);
 }
