@@ -9,7 +9,7 @@
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(https://png.pngtree.com/background/20230524/original/pngtree-the-kaaba-of-mecca-with-thousands-of-people-around-it-picture-image_2707448.jpg);
+    background-image: url(Media/Kaabe.jpg);
 }
 
 .profile-section p {
@@ -37,7 +37,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: fit-content;
-    background-image: url(https://images.unsplash.com/photo-1641816514743-d264c1481585?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(Media/Library.jpg);
     display: flex;
     justify-content: center;
 
@@ -110,7 +110,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: fit-content;
-    background-image: url(https://en.shafaqna.com/wp-content/uploads/2021/12/60d6e62872ae0.jpg);
+    background-image: url(Media/Shrine.jpg);
     align-content: center;
 
 }
