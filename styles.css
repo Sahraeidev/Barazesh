@@ -130,7 +130,7 @@ button:hover {
     transform: translateY(-0.5rem);
 }
 
-@media (min-width: 995px) {
+@media (max-width: 995px) {
     .profile-section {
         background-size: cover;
         background-image: url(Media/Kaabemobile.jpg);
