@@ -129,3 +129,17 @@ button:hover {
     border: #00712D 2px solid;
     transform: translateY(-0.5rem);
 }
+
+@media (min-width: 995px) {
+    .profile-section {
+        background-size: cover;
+    }
+
+    .Books-section {
+        background-size: cover;
+    }
+
+    .Contact-me {
+        background-size: cover;
+    }
+}
