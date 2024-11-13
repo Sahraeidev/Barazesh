@@ -97,6 +97,16 @@ a:hover {
     transform: translateY(-0.5rem);
 }
 
+.Book-Item a {
+    background-color: #00712D;
+}
+
+.Book-Item a:hover {
+    background-color: #F1F8E8;
+    border-color: #00712D;
+}
+
+
 #PFP {
     border: #00712D 2px solid;
     height: 15rem;
