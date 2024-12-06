@@ -144,13 +144,13 @@ button:hover {
 @media (max-width: 995px) {
     .profile-section {
         background-size: 100%;
-        background-image: url(Media/Kaabemobile.jpg);
+        background-image: url(Media/Kaabe.jpg);
     }
 
     .Books-section {
         background-size: 100%;
 
-        background-image: url(Media/Librarymobile.jpg);
+        background-image: url(Media/Library.jpg);
     }
 
     .Contact-me {

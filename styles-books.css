@@ -5,7 +5,8 @@ h1 {
 
 body {
     color: #F1F8E8;
-    background-color: #00712D;
+    background-image: url("Media/ImamShrine.jpg");
+    background-size: contain;
     margin: 0;
     font-family: "IBM Plex Sans Arabic", sans-serif;
     font-weight: 100;
@@ -18,7 +19,8 @@ a {
     margin-top: 1rem;
     border: #D5ED9F 2px solid;
     text-decoration: none;
-    color: #D5ED9F;
+    background-color: #00712D;
+    color: #F1F8E8;
     transition: 0.5s;
 }
 
@@ -36,6 +38,8 @@ main {
 }
 
 .books-section {
+    margin-top: 2rem   ;
+    background-color: rgba(0, 113, 45, 0.53);
     padding-top: 3rem;
     display: flex;
     align-items: center;
@@ -43,8 +47,9 @@ main {
     flex-wrap: wrap;
 
 }
-
+    
 .book-item {
+    
     margin: 2rem 0;
     display: inline-block;
     background-color: #D5ED9F;
